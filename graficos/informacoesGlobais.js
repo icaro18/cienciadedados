@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/icaro18/api/main/dados-globais.json'
+const url = 'https://raw.githubusercontent.com/icaro18api/api/main/dados-globais.json'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
